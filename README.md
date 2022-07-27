@@ -1,5 +1,5 @@
 This repo contains a working config of a ZeroTier container in BRIDGE configuration for Balena Cloud platform.
-Bridge configuration means your remote devices will be sharing the same LAN, and will act like if sitting next to the home network.
+Bridge configuration means your remote devices will be sharing the same LAN and broadcast domain, and will act like if sitting inside the home network.
 ZeroTier technology is great because you don't need to setup any port forward or NAT to run a private and secure VPN.
 
 This container has been tested in a raspberry 4 but should work on any other platform as long as "balenalib/%%BALENA_MACHINE_NAME%%:latest" is applicable.
